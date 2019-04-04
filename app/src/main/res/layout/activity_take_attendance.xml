@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="88dp"
+        android:text="Branch:"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Semester:"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/branch"
+        android:layout_alignLeft="@+id/branch"
+        android:layout_alignStart="@+id/branch" />
+
+    <TextView
+        android:id="@+id/courseid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="CourseId:"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/year"
+        android:layout_alignLeft="@+id/year"
+        android:layout_alignStart="@+id/year" />
+
+    <Spinner
+        android:id="@+id/branchspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/branch"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/branch" />
+
+    <Spinner
+        android:id="@+id/yearspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/year"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="200dp"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/fetchcourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/year"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:paddingBottom="7dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="5dp"
+        android:text="Fetch Courses"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        />
+
+    <Spinner
+        android:id="@+id/coursespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/proceed"
+        android:layout_alignLeft="@+id/branchspinner"
+        android:layout_alignStart="@+id/branchspinner"
+        android:clickable="false" />
+
+
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="false"
+        android:enabled="false"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="proceed"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_below="@+id/courseid"
+        android:layout_alignLeft="@+id/year"
+        android:layout_alignStart="@+id/year"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
+
+    <include layout="@layout/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

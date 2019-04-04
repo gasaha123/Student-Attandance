@@ -1,0 +1,893 @@
+<resources>
+    <string name="app_name">GoogleSignIn</string>
+    <string name="branch">Branch:</string>
+    <string name="class1">Class</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="email_id">Email Id</string>
+    <string name="year">Year</string>
+    <string name="log_out">LOG OUT</string>
+    <string-array name="year">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+
+    </string-array>
+    <string-array name="roll_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+        <item>117</item>
+        <item>118</item>
+        <item>119</item>
+        <item>120</item>
+    </string-array>
+
+
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>ME</item>
+        <item>CE</item>
+        <item>PIE</item>
+    </string-array>
+
+    <string-array name="roll">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="cse1">
+        <item>CS101</item>
+        <item>CS102</item>
+        <item>CS103</item>
+        <item>CS104</item>
+        <item>CS105</item>
+        <item>CS106</item>
+        <item>CS107</item>
+        <item>CS108</item>
+        <item>CS109</item>
+        <item>CS110</item>
+    </string-array>
+
+    <string-array name="cse2">
+        <item>CS201</item>
+        <item>CS202</item>
+        <item>CS203</item>
+        <item>CS204</item>
+        <item>CS205</item>
+        <item>CS206</item>
+        <item>CS207</item>
+        <item>CS208</item>
+        <item>CS209</item>
+        <item>CS210</item>
+    </string-array>
+
+    <string-array name="cse3">
+        <item>CS301</item>
+        <item>CS302</item>
+        <item>CS303</item>
+        <item>CS304</item>
+        <item>CS305</item>
+        <item>CS306</item>
+        <item>CS307</item>
+        <item>CS308</item>
+        <item>CS309</item>
+        <item>CS310</item>
+    </string-array>
+
+    <string-array name="cse4">
+        <item>CS401</item>
+        <item>CS402</item>
+        <item>CS403</item>
+        <item>CS404</item>
+        <item>CS405</item>
+        <item>CS406</item>
+        <item>CS407</item>
+        <item>CS408</item>
+        <item>CS409</item>
+        <item>CS410</item>
+    </string-array>
+
+    <string-array name="cse5">
+        <item>CS501</item>
+        <item>CS502</item>
+        <item>CS503</item>
+        <item>CS504</item>
+        <item>CS505</item>
+        <item>CS506</item>
+        <item>CS507</item>
+        <item>CS508</item>
+        <item>CS509</item>
+        <item>CS510</item>
+    </string-array>
+
+    <string-array name="cse6">
+        <item>CS601</item>
+        <item>CS602</item>
+        <item>CS603</item>
+        <item>CS604</item>
+        <item>CS605</item>
+        <item>CS606</item>
+        <item>CS607</item>
+        <item>CS608</item>
+        <item>CS609</item>
+        <item>CS610</item>
+    </string-array>
+
+    <string-array name="cse7">
+        <item>CS701</item>
+        <item>CS702</item>
+        <item>CS703</item>
+        <item>CS704</item>
+        <item>CS705</item>
+        <item>CS706</item>
+        <item>CS707</item>
+        <item>CS708</item>
+        <item>CS709</item>
+        <item>CS710</item>
+    </string-array>
+
+    <string-array name="cse8">
+        <item>CS801</item>
+        <item>CS802</item>
+        <item>CS803</item>
+        <item>CS804</item>
+        <item>CS805</item>
+        <item>CS806</item>
+        <item>CS807</item>
+        <item>CS808</item>
+        <item>CS809</item>
+        <item>CS810</item>
+    </string-array>
+
+    <string-array name="mme1">
+        <item>MM101</item>
+        <item>MM102</item>
+        <item>MM103</item>
+        <item>MM104</item>
+        <item>MM105</item>
+        <item>MM106</item>
+        <item>MM107</item>
+        <item>MM108</item>
+        <item>MM109</item>
+        <item>MM110</item>
+    </string-array>
+
+    <string-array name="mme2">
+        <item>MM201</item>
+        <item>MM202</item>
+        <item>MM203</item>
+        <item>MM204</item>
+        <item>MM205</item>
+        <item>MM206</item>
+        <item>MM207</item>
+        <item>MM208</item>
+        <item>MM209</item>
+        <item>MM210</item>
+    </string-array>
+
+    <string-array name="mme3">
+        <item>MM301</item>
+        <item>MM302</item>
+        <item>MM303</item>
+        <item>MM304</item>
+        <item>MM305</item>
+        <item>MM306</item>
+        <item>MM307</item>
+        <item>MM308</item>
+        <item>MM309</item>
+        <item>MM310</item>
+    </string-array>
+
+    <string-array name="mme4">
+        <item>MM401</item>
+        <item>MM402</item>
+        <item>MM403</item>
+        <item>MM404</item>
+        <item>MM405</item>
+        <item>MM406</item>
+        <item>MM407</item>
+        <item>MM408</item>
+        <item>MM409</item>
+        <item>MM410</item>
+    </string-array>
+
+    <string-array name="mme5">
+        <item>MM501</item>
+        <item>MM502</item>
+        <item>MM503</item>
+        <item>MM504</item>
+        <item>MM505</item>
+        <item>MM506</item>
+        <item>MM507</item>
+        <item>MM508</item>
+        <item>MM509</item>
+        <item>MM510</item>
+    </string-array>
+
+    <string-array name="mme6">
+        <item>MM601</item>
+        <item>MM602</item>
+        <item>MM603</item>
+        <item>MM604</item>
+        <item>MM605</item>
+        <item>MM606</item>
+        <item>MM607</item>
+        <item>MM608</item>
+        <item>MM609</item>
+        <item>MM610</item>
+    </string-array>
+
+    <string-array name="mme7">
+        <item>MM701</item>
+        <item>MM702</item>
+        <item>MM703</item>
+        <item>MM704</item>
+        <item>MM705</item>
+        <item>MM706</item>
+        <item>MM707</item>
+        <item>MM708</item>
+        <item>MM709</item>
+        <item>MM710</item>
+    </string-array>
+
+    <string-array name="mme8">
+        <item>MM801</item>
+        <item>MM802</item>
+        <item>MM803</item>
+        <item>MM804</item>
+        <item>MM805</item>
+        <item>MM806</item>
+        <item>MM807</item>
+        <item>MM808</item>
+        <item>MM809</item>
+        <item>MM810</item>
+    </string-array>
+
+    <string-array name="me1">
+        <item>ME101</item>
+        <item>ME102</item>
+        <item>ME103</item>
+        <item>ME104</item>
+        <item>ME105</item>
+        <item>ME106</item>
+        <item>ME107</item>
+        <item>ME108</item>
+        <item>ME109</item>
+        <item>ME110</item>
+    </string-array>
+
+    <string-array name="me2">
+        <item>ME201</item>
+        <item>ME202</item>
+        <item>ME203</item>
+        <item>ME204</item>
+        <item>ME205</item>
+        <item>ME206</item>
+        <item>ME207</item>
+        <item>ME208</item>
+        <item>ME209</item>
+        <item>ME210</item>
+    </string-array>
+
+    <string-array name="me3">
+        <item>ME301</item>
+        <item>ME302</item>
+        <item>ME303</item>
+        <item>ME304</item>
+        <item>ME305</item>
+        <item>ME306</item>
+        <item>ME307</item>
+        <item>ME308</item>
+        <item>ME309</item>
+        <item>ME310</item>
+    </string-array>
+
+    <string-array name="me4">
+        <item>ME401</item>
+        <item>ME402</item>
+        <item>ME403</item>
+        <item>ME404</item>
+        <item>ME405</item>
+        <item>ME406</item>
+        <item>ME407</item>
+        <item>ME408</item>
+        <item>ME409</item>
+        <item>ME410</item>
+    </string-array>
+
+    <string-array name="me5">
+        <item>ME501</item>
+        <item>ME502</item>
+        <item>ME503</item>
+        <item>ME504</item>
+        <item>ME505</item>
+        <item>ME506</item>
+        <item>ME507</item>
+        <item>ME508</item>
+        <item>ME509</item>
+        <item>ME510</item>
+    </string-array>
+
+    <string-array name="me6">
+        <item>ME601</item>
+        <item>ME602</item>
+        <item>ME603</item>
+        <item>ME604</item>
+        <item>ME605</item>
+        <item>ME606</item>
+        <item>ME607</item>
+        <item>ME608</item>
+        <item>ME609</item>
+        <item>ME610</item>
+    </string-array>
+
+    <string-array name="me7">
+        <item>ME701</item>
+        <item>ME702</item>
+        <item>ME703</item>
+        <item>ME704</item>
+        <item>ME705</item>
+        <item>ME706</item>
+        <item>ME707</item>
+        <item>ME708</item>
+        <item>ME709</item>
+        <item>ME710</item>
+    </string-array>
+
+    <string-array name="me8">
+        <item>ME801</item>
+        <item>ME802</item>
+        <item>ME803</item>
+        <item>ME804</item>
+        <item>ME805</item>
+        <item>ME806</item>
+        <item>ME807</item>
+        <item>ME808</item>
+        <item>ME809</item>
+        <item>ME810</item>
+    </string-array>
+
+    <string-array name="ce1">
+        <item>CE101</item>
+        <item>CE102</item>
+        <item>CE103</item>
+        <item>CE104</item>
+        <item>CE105</item>
+        <item>CE106</item>
+        <item>CE107</item>
+        <item>CE108</item>
+        <item>CE109</item>
+        <item>CE110</item>
+    </string-array>
+
+    <string-array name="ce2">
+        <item>CE201</item>
+        <item>CE202</item>
+        <item>CE203</item>
+        <item>CE204</item>
+        <item>CE205</item>
+        <item>CE206</item>
+        <item>CE207</item>
+        <item>CE208</item>
+        <item>CE209</item>
+        <item>CE210</item>
+    </string-array>
+
+    <string-array name="ce3">
+        <item>CE301</item>
+        <item>CE302</item>
+        <item>CE303</item>
+        <item>CE304</item>
+        <item>CE305</item>
+        <item>CE306</item>
+        <item>CE307</item>
+        <item>CE308</item>
+        <item>CE309</item>
+        <item>CE310</item>
+    </string-array>
+
+    <string-array name="ce4">
+        <item>CE401</item>
+        <item>CE402</item>
+        <item>CE403</item>
+        <item>CE404</item>
+        <item>CE405</item>
+        <item>CE406</item>
+        <item>CE407</item>
+        <item>CE408</item>
+        <item>CE409</item>
+        <item>CE410</item>
+    </string-array>
+
+    <string-array name="ce5">
+        <item>CE501</item>
+        <item>CE502</item>
+        <item>CE503</item>
+        <item>CE504</item>
+        <item>CE505</item>
+        <item>CE506</item>
+        <item>CE507</item>
+        <item>CE508</item>
+        <item>CE509</item>
+        <item>CE510</item>
+    </string-array>
+
+    <string-array name="ce6">
+        <item>CE601</item>
+        <item>CE602</item>
+        <item>CE603</item>
+        <item>CE604</item>
+        <item>CE605</item>
+        <item>CE606</item>
+        <item>CE607</item>
+        <item>CE608</item>
+        <item>CE609</item>
+        <item>CE610</item>
+    </string-array>
+
+    <string-array name="ce7">
+        <item>CE701</item>
+        <item>CE702</item>
+        <item>CE703</item>
+        <item>CE704</item>
+        <item>CE705</item>
+        <item>CE706</item>
+        <item>CE707</item>
+        <item>CE708</item>
+        <item>CE709</item>
+        <item>CE710</item>
+    </string-array>
+
+    <string-array name="ce8">
+        <item>CE801</item>
+        <item>CE802</item>
+        <item>CE803</item>
+        <item>CE804</item>
+        <item>CE805</item>
+        <item>CE806</item>
+        <item>CE807</item>
+        <item>CE808</item>
+        <item>CE809</item>
+        <item>CE810</item>
+    </string-array>
+
+    <string-array name="pie1">
+        <item>PI101</item>
+        <item>PI102</item>
+        <item>PI103</item>
+        <item>PI104</item>
+        <item>PI105</item>
+        <item>PI106</item>
+        <item>PI107</item>
+        <item>PI108</item>
+        <item>PI109</item>
+        <item>PI110</item>
+    </string-array>
+
+    <string-array name="pie2">
+        <item>PI201</item>
+        <item>PI202</item>
+        <item>PI203</item>
+        <item>PI204</item>
+        <item>PI205</item>
+        <item>PI206</item>
+        <item>PI207</item>
+        <item>PI208</item>
+        <item>PI209</item>
+        <item>PI210</item>
+    </string-array>
+
+    <string-array name="pie3">
+        <item>PI301</item>
+        <item>PI302</item>
+        <item>PI303</item>
+        <item>PI304</item>
+        <item>PI305</item>
+        <item>PI306</item>
+        <item>PI307</item>
+        <item>PI308</item>
+        <item>PI309</item>
+        <item>PI310</item>
+    </string-array>
+
+    <string-array name="pie4">
+        <item>PI401</item>
+        <item>PI402</item>
+        <item>PI403</item>
+        <item>PI404</item>
+        <item>PI405</item>
+        <item>PI406</item>
+        <item>PI407</item>
+        <item>PI408</item>
+        <item>PI409</item>
+        <item>PI410</item>
+    </string-array>
+
+    <string-array name="pie5">
+        <item>PI501</item>
+        <item>PI502</item>
+        <item>PI503</item>
+        <item>PI504</item>
+        <item>PI505</item>
+        <item>PI506</item>
+        <item>PI507</item>
+        <item>PI508</item>
+        <item>PI509</item>
+        <item>PI510</item>
+    </string-array>
+
+    <string-array name="pie6">
+        <item>PI601</item>
+        <item>PI602</item>
+        <item>PI603</item>
+        <item>PI604</item>
+        <item>PI605</item>
+        <item>PI606</item>
+        <item>PI607</item>
+        <item>PI608</item>
+        <item>PI609</item>
+        <item>PI610</item>
+    </string-array>
+
+    <string-array name="pie7">
+        <item>PI701</item>
+        <item>PI702</item>
+        <item>PI703</item>
+        <item>PI704</item>
+        <item>PI705</item>
+        <item>PI706</item>
+        <item>PI707</item>
+        <item>PI708</item>
+        <item>PI709</item>
+        <item>PI710</item>
+    </string-array>
+
+    <string-array name="pie8">
+        <item>PI801</item>
+        <item>PI802</item>
+        <item>PI803</item>
+        <item>PI804</item>
+        <item>PI805</item>
+        <item>PI806</item>
+        <item>PI807</item>
+        <item>PI808</item>
+        <item>PI809</item>
+        <item>PI810</item>
+    </string-array>
+
+    <string-array name="eee1">
+        <item>EE101</item>
+        <item>EE102</item>
+        <item>EE103</item>
+        <item>EE104</item>
+        <item>EE105</item>
+        <item>EE106</item>
+        <item>EE107</item>
+        <item>EE108</item>
+        <item>EE109</item>
+        <item>EE110</item>
+    </string-array>
+
+    <string-array name="eee2">
+        <item>EE201</item>
+        <item>EE202</item>
+        <item>EE203</item>
+        <item>EE204</item>
+        <item>EE205</item>
+        <item>EE206</item>
+        <item>EE207</item>
+        <item>EE208</item>
+        <item>EE209</item>
+        <item>EE210</item>
+    </string-array>
+
+    <string-array name="eee3">
+        <item>EE301</item>
+        <item>EE302</item>
+        <item>EE303</item>
+        <item>EE304</item>
+        <item>EE305</item>
+        <item>EE306</item>
+        <item>EE307</item>
+        <item>EE308</item>
+        <item>EE309</item>
+        <item>EE310</item>
+    </string-array>
+
+    <string-array name="eee4">
+        <item>EE401</item>
+        <item>EE402</item>
+        <item>EE403</item>
+        <item>EE404</item>
+        <item>EE405</item>
+        <item>EE406</item>
+        <item>EE407</item>
+        <item>EE408</item>
+        <item>EE409</item>
+        <item>EE410</item>
+    </string-array>
+
+    <string-array name="eee5">
+        <item>EE501</item>
+        <item>EE502</item>
+        <item>EE503</item>
+        <item>EE504</item>
+        <item>EE505</item>
+        <item>EE506</item>
+        <item>EE507</item>
+        <item>EE508</item>
+        <item>EE509</item>
+        <item>EE510</item>
+    </string-array>
+
+    <string-array name="eee6">
+        <item>EE601</item>
+        <item>EE602</item>
+        <item>EE603</item>
+        <item>EE604</item>
+        <item>EE605</item>
+        <item>EE606</item>
+        <item>EE607</item>
+        <item>EE608</item>
+        <item>EE609</item>
+        <item>EE610</item>
+    </string-array>
+
+    <string-array name="eee7">
+        <item>EE701</item>
+        <item>EE702</item>
+        <item>EE703</item>
+        <item>EE704</item>
+        <item>EE705</item>
+        <item>EE706</item>
+        <item>EE707</item>
+        <item>EE708</item>
+        <item>EE709</item>
+        <item>EE710</item>
+    </string-array>
+
+    <string-array name="eee8">
+        <item>EE801</item>
+        <item>EE802</item>
+        <item>EE803</item>
+        <item>EE804</item>
+        <item>EE805</item>
+        <item>EE806</item>
+        <item>EE807</item>
+        <item>EE808</item>
+        <item>EE809</item>
+        <item>EE810</item>
+    </string-array>
+
+    <string-array name="ece1">
+        <item>EC101</item>
+        <item>EC102</item>
+        <item>EC103</item>
+        <item>EC104</item>
+        <item>EC105</item>
+        <item>EC106</item>
+        <item>EC107</item>
+        <item>EC108</item>
+        <item>EC109</item>
+        <item>EC110</item>
+    </string-array>
+
+    <string-array name="ece2">
+        <item>EC201</item>
+        <item>EC202</item>
+        <item>EC203</item>
+        <item>EC204</item>
+        <item>EC205</item>
+        <item>EC206</item>
+        <item>EC207</item>
+        <item>EC208</item>
+        <item>EC209</item>
+        <item>EC210</item>
+    </string-array>
+
+    <string-array name="ece3">
+        <item>EC301</item>
+        <item>EC302</item>
+        <item>EC303</item>
+        <item>EC304</item>
+        <item>EC305</item>
+        <item>EC306</item>
+        <item>EC307</item>
+        <item>EC308</item>
+        <item>EC309</item>
+        <item>EC310</item>
+    </string-array>
+
+    <string-array name="ece4">
+        <item>EC401</item>
+        <item>EC402</item>
+        <item>EC403</item>
+        <item>EC404</item>
+        <item>EC405</item>
+        <item>EC406</item>
+        <item>EC407</item>
+        <item>EC408</item>
+        <item>EC409</item>
+        <item>EC410</item>
+    </string-array>
+
+    <string-array name="ece5">
+        <item>EC501</item>
+        <item>EC502</item>
+        <item>EC503</item>
+        <item>EC504</item>
+        <item>EC505</item>
+        <item>EC506</item>
+        <item>EC507</item>
+        <item>EC508</item>
+        <item>EC509</item>
+        <item>EC510</item>
+    </string-array>
+
+    <string-array name="ece6">
+        <item>EC601</item>
+        <item>EC602</item>
+        <item>EC603</item>
+        <item>EC604</item>
+        <item>EC605</item>
+        <item>EC606</item>
+        <item>EC607</item>
+        <item>EC608</item>
+        <item>EC609</item>
+        <item>EC610</item>
+    </string-array>
+
+    <string-array name="ece7">
+        <item>EC701</item>
+        <item>EC702</item>
+        <item>EC703</item>
+        <item>EC704</item>
+        <item>EC705</item>
+        <item>EC706</item>
+        <item>EC707</item>
+        <item>EC708</item>
+        <item>EC709</item>
+        <item>EC710</item>
+    </string-array>
+
+    <string-array name="ece8">
+        <item>EC801</item>
+        <item>EC802</item>
+        <item>EC803</item>
+        <item>EC804</item>
+        <item>EC805</item>
+        <item>EC806</item>
+        <item>EC807</item>
+        <item>EC808</item>
+        <item>EC809</item>
+        <item>EC810</item>
+    </string-array>
+
+
+</resources>

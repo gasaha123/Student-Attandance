@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="175dp"
+        android:text="Gaurav"
+        android:paddingTop="5dp"
+        android:textSize="25dp"
+        android:id="@+id/rolltext"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/presenttext"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_toEndOf="@+id/rolltext"
+        android:layout_toRightOf="@+id/rolltext"
+        android:text="5" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/totaltext"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_toEndOf="@+id/presenttext"
+        android:layout_toRightOf="@+id/presenttext"
+        android:text="5" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:id="@+id/percenttext"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_toEndOf="@+id/totaltext"
+        android:layout_toRightOf="@+id/totaltext"
+        android:text="5" />
+</RelativeLayout>

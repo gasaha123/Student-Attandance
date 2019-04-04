@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+  >
+
+
+    <EditText
+        android:id="@+id/stuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Name"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No."
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_below="@+id/stuname"
+        android:layout_alignLeft="@+id/stuname"
+        android:layout_alignStart="@+id/stuname"
+        android:layout_marginTop="26dp" />
+
+    <Spinner
+        android:id="@+id/rollspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp"
+        android:layout_alignTop="@+id/rollno"
+        android:layout_toRightOf="@+id/rollno"
+        android:layout_alignRight="@+id/stuname"
+        android:layout_alignEnd="@+id/stuname" />
+
+
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_below="@+id/rollno"
+        android:layout_alignLeft="@+id/rollno"
+        android:layout_alignStart="@+id/rollno"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/year"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/branch"
+        android:layout_alignLeft="@+id/branch"
+        android:layout_alignStart="@+id/branch" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp"
+        android:layout_alignTop="@+id/branch"
+        android:layout_toRightOf="@+id/branch"
+        android:layout_alignRight="@+id/rollspinner"
+        android:layout_alignEnd="@+id/rollspinner" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/year"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner" />
+
+    <Button
+        android:id="@+id/fetchcourses2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/year"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:paddingBottom="7dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="5dp"
+        android:text="Fetch Courses"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/courseidstudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/year"
+        android:layout_alignStart="@+id/year"
+        android:layout_below="@+id/fetchcourses2"
+        android:layout_marginTop="26dp"
+        android:text="Course Id:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/coursespinnerstudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/courseidstudents"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="false" />
+
+
+    <Button
+        android:id="@+id/submitstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courseidstudents"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="Submit"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"/>
+
+    <include layout="@layout/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

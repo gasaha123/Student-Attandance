@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+
+
+    <Button
+        android:id="@+id/add_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="70dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Class"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="77dp"
+        android:layout_marginEnd="77dp" />
+    <Button
+        android:id="@+id/student_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Student Details"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/add_class"
+        android:layout_alignRight="@+id/add_class"
+        android:layout_alignEnd="@+id/add_class"
+        android:layout_alignLeft="@+id/add_class"
+        android:layout_alignStart="@+id/add_class" />
+    <Button
+        android:id="@+id/take_attendence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Take Attendence"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/student_details"
+        android:layout_alignRight="@id/student_details"
+        android:layout_alignEnd="@id/student_details"
+        android:layout_alignLeft="@+id/student_details"
+        android:layout_alignStart="@+id/student_details" />
+    <Button
+        android:id="@+id/show_attendence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Show Attendence"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/take_attendence"
+        android:layout_alignRight="@id/take_attendence"
+        android:layout_alignEnd="@id/take_attendence"
+        android:layout_alignLeft="@+id/take_attendence"
+        android:layout_alignStart="@+id/take_attendence" />
+
+    <include layout="@layout/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+

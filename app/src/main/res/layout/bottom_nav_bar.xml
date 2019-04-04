@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+
+    android:background="@color/colorPrimary"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+
+        android:background="#ddd"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+        <LinearLayout
+            android:id="@+id/add__class"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:id="@+id/add_class_image"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_add_class"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/add_class_text"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Add\nClass"
+                android:textColor="#fff"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/student_details"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/student_details_image"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_student_details"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/student_details_text"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Student\nDetails"
+                android:textColor="#fff"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/take_attendence"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:id="@+id/take_attendence_image"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_take_attendence"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/take_attendence_text"
+                android:gravity="center_horizontal"
+                android:text="Take\nAttendence"
+                android:textColor="#fff"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/show_attendence"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/show_attendence_image"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_show_attendence"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/show_attendence_text"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Show\nAttendence"
+                android:textColor="#fff"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/teacher_profile"
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/show_teacher_image"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_show_teacher_image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/show_teacher_name"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Teacher\nProfile"
+                android:textColor="#fff"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

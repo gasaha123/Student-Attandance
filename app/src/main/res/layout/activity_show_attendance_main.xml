@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="175dp"
+            android:text="Roll No."
+            android:paddingTop="5dp"
+            android:background="#C0C0C0"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:id="@+id/rolltext1"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/presenttext1"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:background="#C0C0C0"
+            android:layout_marginStart="16dp"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:layout_toEndOf="@+id/rolltext1"
+            android:layout_toRightOf="@+id/rolltext1"
+            android:text="P" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/totaltext1"
+            android:background="#C0C0C0"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:textColor="#ffffff"
+            android:layout_marginStart="16dp"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:textSize="30dp"
+            android:layout_toEndOf="@+id/presenttext1"
+            android:layout_toRightOf="@+id/presenttext1"
+            android:text="T" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:id="@+id/percenttext1"
+            android:layout_alignParentTop="true"
+            android:background="#C0C0C0"
+            android:layout_marginLeft="16dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginStart="16dp"
+            android:textAlignment="center"
+            android:paddingTop="5dp"
+            android:layout_toEndOf="@+id/totaltext1"
+            android:layout_toRightOf="@+id/totaltext1"
+            android:text="%" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/listview"
+        />
+
+</RelativeLayout>
